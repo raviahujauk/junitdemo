@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Tests.RuncucumberTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.935 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.403 sec
