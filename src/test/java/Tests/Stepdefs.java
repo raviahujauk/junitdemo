@@ -12,7 +12,10 @@ public class Stepdefs {
     WebDriver driver;
     @Given("^I go to \"([^\"]*)\"$")
     public void iGoTo(String arg0) throws Throwable {
-        System.setProperty("webdriver.chrome.driver" , "chromedriver.exe");
+        //For Windown
+        //System.setProperty("webdriver.chrome.driver" , "chromedriver.exe");
+        //For Linux
+        System.setProperty("webdriver.chrome.driver" , "chromedriver");
         //Headless browser
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
