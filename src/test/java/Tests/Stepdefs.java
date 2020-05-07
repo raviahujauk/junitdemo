@@ -14,12 +14,14 @@ public class Stepdefs {
     public void iGoTo(String arg0) throws Throwable {
         //For Windown
         //System.setProperty("webdriver.chrome.driver" , "chromedriver.exe");
+
         //For Linux
         System.setProperty("webdriver.chrome.driver" , "/usr/local/bin/chromedriver");
         //Headless browser
-        //ChromeOptions options = new ChromeOptions();
-        //options.addArguments("--headless");
-        //driver = new ChromeDriver(options);
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
+
         driver = new ChromeDriver();
         driver.get("https://www.youtube.com/channel/UCSMFeUcRuAqIGQu3RWOlCRg");
     }
