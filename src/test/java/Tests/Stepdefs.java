@@ -5,6 +5,7 @@ import cucumber.api.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Stepdefs {
 
@@ -12,7 +13,11 @@ public class Stepdefs {
     @Given("^I go to \"([^\"]*)\"$")
     public void iGoTo(String arg0) throws Throwable {
         System.setProperty("webdriver.chrome.driver" , "chromedriver.exe");
-        driver = new ChromeDriver();
+        //Headless browser
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+
+        driver = new ChromeDriver(options);
         driver.get("https://www.youtube.com/channel/UCSMFeUcRuAqIGQu3RWOlCRg");
     }
 
