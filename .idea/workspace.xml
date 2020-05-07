@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87b950e4-0bb1-47a0-ad2e-26138d1e46b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Stepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Stepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Stepdefs.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/Stepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="253">
+              <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,7 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588815611562" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588817320908" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -280,12 +281,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__testFeature - 2020.05.06 at 22h 37m 31s.xml">
-      <configuration name="Feature: testFeature" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__testFeature - 2020.05.06 at 22h 39m 02s.xml">
-      <configuration name="Feature: testFeature" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__testFeature - 2020.05.06 at 22h 49m 04s.xml">
       <configuration name="Feature: testFeature" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -308,6 +303,12 @@
       <configuration name="RuncucumberTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RuncucumberTest - 2020.05.07 at 02h 08m 33s.xml">
+      <configuration name="RuncucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuncucumberTest - 2020.05.07 at 02h 51m 02s.xml">
+      <configuration name="RuncucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuncucumberTest - 2020.05.07 at 02h 51m 42s.xml">
       <configuration name="RuncucumberTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -411,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/Stepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="253">
+          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

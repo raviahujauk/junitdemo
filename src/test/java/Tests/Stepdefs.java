@@ -15,7 +15,7 @@ public class Stepdefs {
         //For Windown
         //System.setProperty("webdriver.chrome.driver" , "chromedriver.exe");
         //For Linux
-        System.setProperty("webdriver.chrome.driver" , "chromedriver");
+        System.setProperty("webdriver.chrome.driver" , System.getProperty("chromedriver"));
         //Headless browser
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
